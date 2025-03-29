@@ -20,6 +20,6 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.0
         with:
-          token: ${{ secrets.DEPLOY_TOKEN }}  # Використання нового токена
+          token: ${{ secrets.ACCESS_TOKEN_TEST_HW_JS_12 }}  # Використання нового токена
           branch: gh-pages
           folder: dist
